@@ -8,8 +8,9 @@ before_install:
 script:
   - docker run  marcobelottiwebscience/docker-react npm run test -- -- coverage
 
-
-
+git:
+  depth: 25
+  quiet: true
 
 
 
